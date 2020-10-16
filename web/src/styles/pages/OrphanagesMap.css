@@ -1,0 +1,136 @@
+#page-map {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  position: relative;
+}
+
+#page-map aside {
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  width: 440px;
+  padding: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#page-map aside h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 42px;
+  margin-top: 64px;
+}
+
+#page-map aside p {
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 24px;
+}
+
+#page-map aside footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#page-map aside footer strong {
+  font-weight: 800;
+}
+
+#page-map aside footer a,
+#page-map aside footer button {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  color: #0089a5;
+  background-color: #ffd666;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-map aside footer a:hover,
+#page-map aside footer button:hover {
+  background-color: #96feff;
+}
+
+#page-map .leaflet-container {
+  z-index: 4;
+}
+
+#page-map .create-orphanage {
+  z-index: 10;
+
+  position: absolute;
+
+  color: #0089a5;
+  right: 48px;
+  bottom: 40px;
+
+  width: 64px;
+  height: 64px;
+
+  text-decoration: none;
+
+  border-radius: 20px;
+  background-color: #ffd666;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s;
+}
+#page-map .create-orphanage:hover {
+  background-color: #96feff;
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+  color: #0089a5;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+  width: 50px;
+  height: 38px;
+
+  text-decoration: none;
+
+  border-radius: 100px;
+  background-color: #ffd666;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s;
+}
+
+#page-map .map-popup .leaflet-popup-content a:hover {
+  background-color: #96feff;
+}
+#page-map .map-popup .leaflet-popup-tip-container {
+  display: none;
+}

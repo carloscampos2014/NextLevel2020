@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import "../sytles/global.css";
-import "../sytles/pages/landing.css";
+import "../styles/global.css";
+import "../styles/pages/landing.css";
 import logoImg from '../images/logo.svg';
 import { FiArrowRight } from 'react-icons/fi'
 

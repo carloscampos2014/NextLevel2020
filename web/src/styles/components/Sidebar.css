@@ -1,0 +1,40 @@
+.sideBar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: linear-gradient(329.54deg, #15b6d6 0%, #15d6d6 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sideBar img {
+  width: 48px;
+}
+
+.sideBar footer a,
+.sideBar footer button {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  color: #0089a5;
+  background-color: #ffd666;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideBar footer a:hover,
+.sideBar footer button:hover {
+  background-color: #96feff;
+}
